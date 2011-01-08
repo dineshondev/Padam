@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+    <string name="app_name">TablayoutDemo</string>
+    <string name="ip_address">http://cmu-418885.wv.cc.cmu.edu:8080/xpic/picServiceService"</string>
+
+    <string name="soap_name">services</string>
+
+    <string name="method_name">getflickrImages</string>
+
+    <string name="method_namespace"> http://services/</string>
+
+ </resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:orientation="vertical"
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<!--        <LinearLayout   android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+     <TextView       android:id="@+id/t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Current Tab:" />
+
+                             <TextView       android:id="@+id/current_tab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="..." />
+ <Button android:id="@+id/button_quit" android:text="quit"
+          android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+    </LinearLayout>-->
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+             <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+<!-- 
+<LinearLayout      android:id="@+id/tab1_layout"
+                   android:orientation="vertical"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+     <TextView       android:id="@+id/textview1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="This in the original Tab No1#" />
+                        
+        <LinearLayout   android:orientation="horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+
+   
+
+        <EditText       android:id="@+id/input_tabname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="my new tab"
+                        android:textSize="18sp" />
+
+        <Button         android:id="@+id/button_addtab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="set"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+  
+<LinearLayout      android:id="@+id/tab2_layout"
+                   android:orientation="vertical"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+
+            <TextView
+                android:id="@+id/textview2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="This in the original Tab No2#" />
+</LinearLayout>
+
+
+  
+<LinearLayout      android:id="@+id/tab3_layout"
+                   android:orientation="vertical"
+                   android:layout_width="fill_parent"
+                   android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="This in the original Tab No3#" />
+</LinearLayout>
+
+-->
+        </FrameLayout>
+    </LinearLayout>
+</TabHost>
+
+    </LinearLayout>

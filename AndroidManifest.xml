@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+     package="org.me.tablayoutdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application>
+          <uses-library android:name="com.google.android.maps" />
+         <activity android:name=".MainActivity" android:label="TabLayoutDemo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+         <activity android:name=".BrowserActivity"  />
+         <activity android:name=".MyMapActivity"  />
+         <activity android:name=".Tab1Activity"  />
+
+         <activity android:name=".AnotherTabLayoutDemo"
+                    android:label="AnotherTabLayoutDemo">
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>
+
+
+    </application>
+</manifest>

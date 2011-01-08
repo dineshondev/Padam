@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:isScrollContainer="true"
+>
+<ImageView android:id="@+id/ImageView01"
+android:layout_height="fill_parent"
+android:layout_width = "fill_parent"
+android:scaleType="center"
+android:adjustViewBounds="true"
+android:cropToPadding="true"
+/>
+
+<RelativeLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<Button
+android:id="@+id/mybutton1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Prev"
+>
+</Button>
+<Button
+android:id="@+id/mybutton2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Next"
+android:layout_alignParentRight="true"
+>
+</Button>
+
+</RelativeLayout>
+
+<EditText
+android:id="@+id/pic_name"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Picture name"
+>
+ </EditText>
+<Button
+android:id="@+id/mybutton3"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Tweet"
+android:layout_gravity="center_horizontal">
+
+</Button>
+
+<EditText
+android:id="@+id/myedittext"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Enter Text to tweet"
+android:textSize="18sp"
+>
+</EditText>
+
+
+   </LinearLayout>

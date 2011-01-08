@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/tab1_layout"
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+<LinearLayout
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+<EditText
+android:id="@+id/lat"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Lat"
+>
+</EditText>
+<EditText
+android:id="@+id/longit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Lon"
+>
+</EditText>
+<Button
+android:id="@+id/getPics"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Get Pictures"
+android:layout_alignParentRight="true"
+>
+</Button>
+</LinearLayout>
+
+<LinearLayout
+android:id="@+id/ctrl1"
+android:layout_width="fill_parent"
+android:orientation="horizontal"
+android:layout_height="wrap_content"
+>
+
+<RadioGroup
+android:id="@+id/mapMode"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+>
+<RadioButton
+android:id="@+id/mapR"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="map"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/satR"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="sat"
+>
+</RadioButton>
+</RadioGroup>
+
+
+</LinearLayout>
+
+            <com.google.android.maps.MapView android:id="@+id/mapView"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:apiKey="0nURj5Onhdm6YFpJvuIckSYtRwxXXC2U-iE99OA"
+android:clickable="true" />
+
+
+<LinearLayout       android:id="@+id/zoomCtrls"
+                    android:orientation="horizontal" android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true">
+</LinearLayout>
+
+
+
+</LinearLayout>
